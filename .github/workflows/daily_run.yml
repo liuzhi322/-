@@ -22,5 +22,5 @@ jobs:
           pip install pandas yfinance requests finmind lxml
 
       - name: Run Screener
-        run: python stock_screener.py
+        run: python contest_screener.py
 
